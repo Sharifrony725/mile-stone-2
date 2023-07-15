@@ -128,8 +128,37 @@ line-height: 26px;
     .banner-title{
         font-size: 1rem;
     }
-    .nav{
+    .banner-des{
+        line-height: 1.3rem;
+    }
+    .nav,
+    .team-container{
         flex-direction: column;
+    }
+    .nav{
+        justify-content: space-between;
+        text-align: center;
+    }
+  .team-container .team-container-img{
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  .team-container-content .team-content-title {
+    font-size: 1.2rem;
+    }
+    .team-container-content .team-content-des{
+    font-size: 0.8rem;
+    line-height: 16px;
+    }
+    .btn-primary{
+    padding: 10px 15px;
+    font-size: 1rem;
+    display: block;
+    margin: 0 auto;
+    }
+    .team-container-content{
+    padding-left: 20px;
+    padding-right: 20px;
     }
    
 } 
@@ -138,10 +167,21 @@ line-height: 26px;
     .header{
         padding: 50px;
     }
-    .nav{
+    .nav,
+    .team-container{
         flex-direction: column;
     }
-    .team-container-content{
-        flex-direction: column;
+ .team-container .team-container-img{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+   .btn-primary{
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    display: block;
+    margin: 0 auto;
     }
+   
+
+
 }
