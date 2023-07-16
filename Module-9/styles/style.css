@@ -192,8 +192,24 @@ margin-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
     }
-   
-} 
+    .card-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .fact .fact-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0px;
+    }
+    
+    .fact .fact-des {
+    margin-bottom: 30px;
+    line-height: 18px;
+    text-align: justify;
+    }
+
+}
 /* medium device */
 @media screen and (min-width: 576px) and (max-width: 960px){
     .header{
@@ -212,6 +228,22 @@ margin-top: 5px;
     font-size: 1.5rem;
     display: block;
     margin: 0 auto;
+    }
+    .card-container{
+        display: flex;
+        gap: 10px;
+    }
+    .fact .fact-title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0px;
+    }
+    .fact .fact-des {
+    margin-bottom: 30px;
+    font-size: 1.25rem;
+    /* line-height: 20px; */
+    text-align: center;
     }
    
 
