@@ -331,6 +331,40 @@ font-size: 1.25rem;
     line-height: 18px;
     text-align: justify;
     }
+
+    /* features section */
+    .features{
+     flex-direction: column;
+    }
+    .feature-content .feature-content-title{
+        font-size: 1rem;
+    }
+    .feature-content .feature-content-des{
+        font-size: 0.75rem;
+        line-height: 20px;
+    }
+
+    .feature-img{
+        width: 0px;
+        margin-top: -50px;
+    }
+    .ten-years-badge{
+        width: 80px;
+        right: 0px;
+        bottom: 50px;
+        padding: 10px 20px;
+    }
+    .feature-img .ten-years-badge h2{
+        font-size: 1rem;
+        margin-bottom: -45px;
+    }
+    .feature-img .ten-years-badge p{
+        font-size: 0.5rem;
+    }
+
+    .feature-img img{
+        max-width: 343px;
+    }
     /* sponsor section */
     .sponsor-title {
         font-size: 1.5rem;
@@ -346,6 +380,7 @@ font-size: 1.25rem;
         padding: 15px 20px;
         font-size: 0.75rem;
     }
+
    
 
 }
@@ -398,7 +433,29 @@ font-size: 1.25rem;
         padding: 20px 50px;
         font-size: 1rem;
     }
-   
+
+    /* features section */
+   .features{
+     flex-direction: column;
+    }
+     .feature-img{
+        width: 0px;
+        margin-top: -50px;
+    }
+    .ten-years-badge{
+        width: 180px;
+        right: 0px;
+        bottom: 80px;
+        padding: 30px 20px;
+    }
+    .feature-img .ten-years-badge h2{
+        font-size: 2rem;
+        margin-bottom: -30px;
+    }
+    .feature-img .ten-years-badge p{
+        font-size: 1rem;
+    }
+
 
 
 }
